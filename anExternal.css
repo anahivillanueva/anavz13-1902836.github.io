@@ -1,0 +1,36 @@
+p {
+    font-size: 2em;
+    color: red;
+    font-family: 'Courier New', monospace;
+    border-style: dotted;
+}
+
+p1 {
+    float: left;
+    width: 5em;
+    font-size: 250%;
+    font-family: 'Brush Script Mt', cursive;
+    line-height: 100%;
+    color: pink;
+}
+
+.images {
+    border-radius: 30px;
+    background: paleturquoise;
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+    float: right;
+}
+
+.centered {
+    position: relative;
+    text-align: center;
+}
+
+.name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
